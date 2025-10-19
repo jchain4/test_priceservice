@@ -61,3 +61,13 @@ GET /api/prices?date=2020-06-14T16:00:00&productId=35455&brandId=1
   "currency": "EUR"
 }
 ```
+
+## 📥 Colección Postman
+
+El archivo `postman_collection.json` contiene los 5 casos de prueba funcionales definidos en el enunciado.  
+Puedes importarlo directamente en Postman para validar el microservicio.
+
+Pasos:
+1. Abrir Postman
+2. Importar → `postman_collection.json`
+3. Ejecutar los 5 tests con el contenedor Docker en marcha
