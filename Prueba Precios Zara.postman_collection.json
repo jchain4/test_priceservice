@@ -1,0 +1,485 @@
+{
+	"info": {
+		"_postman_id": "7689c252-0b8d-48f3-b05a-ebe4052a9c12",
+		"name": "Prueba Precios Zara",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49431509"
+	},
+	"item": [
+		{
+			"name": "Consulta: 14 jun 10:00",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/prices?date=2020-06-14T10:00:00&productId=35455&brandId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-14T10:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consulta: 14 jun 10:00",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/prices?date=2020-06-14T10:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-14T10:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Nov 2025 12:44:12 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"productId\": 35455,\n    \"brandId\": 1,\n    \"priceList\": 1,\n    \"startDate\": \"2020-06-14T00:00:00\",\n    \"endDate\": \"2020-12-31T23:59:59\",\n    \"price\": 35.5,\n    \"currency\": \"EUR\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Consulta: 14 jun 16:00",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/prices?date=2020-06-14T16:00:00&productId=35455&brandId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-14T16:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consulta: 14 jun 16:00",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/prices?date=2020-06-14T16:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-14T16:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Nov 2025 12:45:40 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"productId\": 35455,\n    \"brandId\": 1,\n    \"priceList\": 2,\n    \"startDate\": \"2020-06-14T15:00:00\",\n    \"endDate\": \"2020-06-14T18:30:00\",\n    \"price\": 25.45,\n    \"currency\": \"EUR\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Consulta: 14 jun 21:00",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/prices?date=2020-06-14T21:00:00&productId=35455&brandId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-14T21:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consulta: 14 jun 21:00",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/prices?date=2020-06-14T21:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-14T21:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Nov 2025 12:46:27 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"productId\": 35455,\n    \"brandId\": 1,\n    \"priceList\": 1,\n    \"startDate\": \"2020-06-14T00:00:00\",\n    \"endDate\": \"2020-12-31T23:59:59\",\n    \"price\": 35.5,\n    \"currency\": \"EUR\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Consulta: 15 jun 10:00",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/prices?date=2020-06-15T10:00:00&productId=35455&brandId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-15T10:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consulta: 15 jun 10:00",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/prices?date=2020-06-15T10:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-15T10:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Nov 2025 12:47:34 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"productId\": 35455,\n    \"brandId\": 1,\n    \"priceList\": 3,\n    \"startDate\": \"2020-06-15T00:00:00\",\n    \"endDate\": \"2020-06-15T11:00:00\",\n    \"price\": 30.5,\n    \"currency\": \"EUR\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Consulta: 16 jun 21:00",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/prices?date=2020-06-16T21:00:00&productId=35455&brandId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"prices"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-16T21:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Consulta: 16 jun 21:00",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/prices?date=2020-06-16T21:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"prices"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-16T21:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Nov 2025 12:49:11 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"productId\": 35455,\n    \"brandId\": 1,\n    \"priceList\": 4,\n    \"startDate\": \"2020-06-15T16:00:00\",\n    \"endDate\": \"2020-12-31T23:59:59\",\n    \"price\": 38.95,\n    \"currency\": \"EUR\"\n}"
+				}
+			]
+		}
+	]
+}
